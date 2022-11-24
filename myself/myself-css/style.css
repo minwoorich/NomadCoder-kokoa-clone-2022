@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,600;0,700;1,700;1,800&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+
+/* screens */
+@import "screens/header.css";
+@import "screens/login.css";
+@import "screens/friends-names-display.css";
+@import "screens/friends-screen.css";
+
+
+.body{
+    font-family: 'Noto Sans Display', sans-serif;
+    height:100vh;
+    color : var(--defalut-color);
+}
+
+.friends-screen{
+    padding-inline: var(--horizontal-padding);
+}
+
